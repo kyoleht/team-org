@@ -22,6 +22,7 @@ header .about {
     font-size: 22px;
     display: flex;
     padding: 15px;
+    padding-left: 45%;
 }
 
 header .about a {
@@ -31,6 +32,10 @@ header .about a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header .about a:hover {
+    color: #585757;
+}
+
 header .about-team {
     justify-items: center;
     font-size: 35px;
@@ -38,6 +43,7 @@ header .about-team {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(23,23,23,1) 51%, rgba(71,71,71,1) 100%);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 80px;
+    padding-left: 11%;
 }
 
 header .about-team a {
@@ -46,9 +52,19 @@ header .about-team a {
     font-weight: 500;
     padding: 45px;
     gap: 15px;
+    
 }
 
+header .about-team a:hover {
+    color: #585757;
+}
 
+section {
+    height: 100vh; 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(23,23,23,0.9) 51%, rgba(71,71,71,1) 100%), 
+                url('img/Novo_Projeto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-
-/* deixar a foto do time de fundo transparente
+}
